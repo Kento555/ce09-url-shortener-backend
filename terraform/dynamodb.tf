@@ -9,14 +9,4 @@ resource "aws_dynamodb_table" "dynamodb" {
     type = "S"
   }
 
-  attribute {
-    name = "ttl"
-    type = "N"
-  }
-
-  ttl {
-    attribute_name = "ttl"
-    enabled        = true
-  }
-
 }
