@@ -3,8 +3,5 @@ variable "resource_prefix" {
   default = "ce9-kynmws"
 }
 
-variable "" {
-  type = string
-  default = "ce9-kynmws"
-}
+
 
